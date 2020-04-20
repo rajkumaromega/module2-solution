@@ -1,0 +1,50 @@
+.header{
+    text-align:center;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.box{
+    box-sizing: border-box;
+    background-color:gray;
+    height: 150px;
+    width:32%;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    position: relative;
+    border:1px solid black;
+}
+.element{
+    color:white;
+    position: absolute;
+    top:-19px;
+    right:0px;
+    text-transform: uppercase;
+    background-color:orange;
+    padding:5px;
+    border:1px solid black;
+}
+.pink{
+    background-color:pink;
+}
+.red{
+    background-color: red;
+}
+p{
+    color:white;
+    margin-top:35px;
+    padding:10px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width:700px){
+    .box{
+        width:95%;
+    }
+}
+
+
+
+ 
